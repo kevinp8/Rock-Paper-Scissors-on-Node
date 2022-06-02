@@ -1,0 +1,84 @@
+html {
+    color: #cc586c;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+body {
+    background-color: #141221;
+}
+button {
+    background-color: #2b2647;
+    border: none;
+    width: 15%;
+    margin: 0 1vw;
+    color: white;
+}
+img {
+    width: 100%;
+}
+h1 {
+    font-size: 5vw;
+    font-family: 'Syne Mono', monospace;
+}
+p, span, label {
+    font-size: 1.5vw;
+    font-family: 'Smooch Sans', sans-serif;
+}
+button {
+    transition: all .2s ease-in-out;
+}
+button:hover {
+    transform: scale(1.1);
+    background-color: #423a6d;
+}
+#playerPoints {
+    margin-right: 5vw;
+}
+label {
+    margin-right: 0.5vw;
+}
+#playerPoints, #cpuPoints {
+    color: white;
+}
+
+#endPop{
+    background-color: #423b6d;
+    width: 60%;
+    position: absolute;
+    top: 19vw;
+    left: 20%;
+    z-index: 999;
+}
+.hidden {
+    display: none;
+}
+#finalScores {
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Smooch Sans', sans-serif;
+    display: inline-block;
+    padding: 1vw 0;
+}
+#whoWonGame, #finalScores {
+    font-size: 3vw;
+}
+#playAgain{
+    margin: 2.5vw 0;
+    background-color: green;
+}
+#whoWonRound {
+    color: white;
+    font-size: 2vw;
+}
+#nextRound {
+    background-color: green;
+    font-size: 2vw;
+    font-family: 'Smooch Sans', sans-serif;
+    padding: 1.5vw;
+}

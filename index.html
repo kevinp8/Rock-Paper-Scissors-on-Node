@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Rock, Paper, Scissors!</title>
+</head>
+    <body>
+        <header>
+            <h1>Rock, Paper, Scissors!</h1>
+        </header>
+        <main>
+            <label for="playerPoints">Your Points:</label>
+            <span id="playerPoints">0</span>
+
+            <label for="cpuPoints">CPU Points:</label>
+            <span id="cpuPoints">0</span>
+            <p id="whoWonRound">First to 5 points wins!</p>
+
+            <button class="rock choice">
+                <img src="https://images.emojiterra.com/google/android-11/512px/1faa8.png" alt="rock" class="rock">
+                <span>ROCK</span>
+            </button>
+            <button class="paper choice">
+                <img src="https://assets.wprock.fr/emoji/joypixels/512/1f4dc.png" alt="paper" class="paper">
+                <span>PAPER</span>
+            </button>
+            <button class="scissors choice">
+                <img src="https://images.emojiterra.com/google/android-oreo/512px/2702.png" alt="scissors" class="scissors">
+                <span>SCISSORS</span>
+            </button>
+
+            <button id="nextRound" class="hidden">Next Round</button>
+
+
+            <section class="hidden" id="endPop">
+                <p id="whoWonGame"></p>
+                <span id="finalScores"></span>
+                <button id="playAgain"><a href="/">Play Again</a></button>
+            </section>
+        </main>
+
+        <script src="/js/main.js"></script>
+    </body>
+</html>
